@@ -5,12 +5,16 @@
 }
 
 body {
-  color: #333;
+  color: #022118;
   font-family: "Inter", sans-serif;
+  background-color: #0ca678;
 }
 
 img {
   display: inline-block;
+  box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.2);
+  margin-bottom: 12px;
+  border-radius: 9px;
 }
 
 .container {
@@ -19,23 +23,46 @@ img {
   align-items: center;
   width: 1000px;
   margin: 100px auto 0;
-  border: 1px solid black;
+  box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.2);
+  background-color: #b6e4d7;
+  border-radius: 9px;
 }
 
 h1 {
   font-size: 50px;
+  margin: 24px 0;
+}
+
+.caption {
+  margin-bottom: 48px;
+}
+
+.recipe-box {
+  margin-bottom: 36px;
 }
 
 h3 {
   font-size: 36px;
+  margin-bottom: 18px;
 }
 
 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
   list-style: none;
 }
 
 .list-link:link,
 .list-link:visited {
   text-decoration: none;
-  color: #333;
+  font-size: 18px;
+  color: #022118;
+}
+
+.list-link:hover,
+.list-link:active {
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 1px;
+  color: #0ca678;
 }
