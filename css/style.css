@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+  font-family: "Inter", sans-serif;
+}
+
+img {
+  display: inline-block;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+  margin: 100px auto 0;
+  border: 1px solid black;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+ul {
+  list-style: none;
+}
+
+.list-link:link,
+.list-link:visited {
+  text-decoration: none;
+  color: #333;
+}
